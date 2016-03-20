@@ -46,3 +46,11 @@ A cambio de estas limitaciones las tuplas son más “ligeras” que las listas,
 ```Python
 t = (1, 2, "hola", ["hi", "bye"], (1 , 2, 3))
 ```
+
+### Diccionario
+
+## Control de Flujo
+## Funciones
+## Orientación a Objetos
+## Programación Funcional
+## Excepciones (si llegamos!!!)
