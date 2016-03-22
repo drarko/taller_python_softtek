@@ -48,8 +48,26 @@ t = (1, 2, "hola", ["hi", "bye"], (1 , 2, 3))
 ```
 
 ### Diccionario
+Los diccionarios, también llamados matrices asociativas, deben su nombre a que son colecciones que relacionan una clave y un valor.
+
+```Python
+d = {"Love Actually": "Richard Curtis", "Kill Bill": "Tarantino", "Amélie": "Jean-Pierre Jeunet"}
+d["Love Actually"] # devuelve “Richard Curtis”
+```
 
 ## Control de Flujo
+###if
+```Python
+if mi_var== "Gustavo":
+    print "sos Gustavo"
+else:
+    print "No eres gustavo"
+#o en una sola linea
+var = "par" if (num % 2 == 0) else "impar"
+```
+
+###Bucles
+
 ## Funciones
 ## Orientación a Objetos
 ## Programación Funcional
