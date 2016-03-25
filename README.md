@@ -65,8 +65,26 @@ else:
 #o en una sola linea
 var = "par" if (num % 2 == 0) else "impar"
 ```
-
-###Bucles
+###if ... elif ... elif ... else
+```Python
+if numero < 0:
+    print “Negativo”
+elif numero > 0:
+    print “Positivo”
+else:
+    print “Cero”
+```
+###if de una sola linea
+```Python
+var = “par” if (num % 2 == 0) else “impar”
+```
+###while
+```Python
+edad = 0
+while edad < 18:
+    edad = edad + 1
+    print “Felicidades, tienes “ + str(edad)
+```
 
 ## Funciones
 ## Orientación a Objetos
