@@ -86,6 +86,13 @@ while edad < 18:
     print “Felicidades, tienes “ + str(edad)
 ```
 
+###for .. in
+```Python
+l = [1, 2, 3, 4]
+for l in sec:
+    print sec
+```
+
 ## Funciones
 ## Orientación a Objetos
 ## Programación Funcional
