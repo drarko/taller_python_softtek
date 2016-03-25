@@ -94,6 +94,13 @@ for l in sec:
 ```
 
 ## Funciones
+En Python no existen los procedimientos, ya que cuando el programador no especifica un valor de retorno la función devuelve el valor None (nada), equivalente al null de Java.
+
+```Python
+def mi_funcion(param1, param2):
+    print param1
+    print paran2
+```
 ## Orientación a Objetos
 ## Programación Funcional
 ## Excepciones (si llegamos!!!)
