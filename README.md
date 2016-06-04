@@ -102,6 +102,7 @@ def mi_funcion(param1, param2):
     print paran2
 ```
 ## Orientación a Objetos
+### Clases
 ```python
 class Coche:
 “””Abstraccion de los objetos coche.”””
@@ -120,5 +121,17 @@ class Coche:
         else:
             print “No se mueve”
 ```
+
+### Herencia
+### Herencia Múltiple
+### Polimorfismo
+### Encapsulación
+### Metodos Especiales
+### Revisando Objetos
+#### Diccionarios
+#### Cadenas
+#### Listas
+
+
 ## Programación Funcional
 ## Excepciones (si llegamos!!!)
