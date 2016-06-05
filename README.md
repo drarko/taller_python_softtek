@@ -126,6 +126,8 @@ class Coche:
 ### Herencia Múltiple
 ### Polimorfismo
 ### Encapsulación
+En Python no exiten los modificadores de acceso, el acceso a una variable
+es determinado por su nombre: si en nombre comienza con dosguies bajos se trata de una variable o funcion privada, en casoconrari se trata de una pública.
 ### Metodos Especiales
 ### Revisando Objetos
 #### Diccionarios
