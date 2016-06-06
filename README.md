@@ -123,17 +123,39 @@ class Coche:
 ```
 
 ### Herencia
-### Herencia Múltiple
-### Polimorfismo
-### Encapsulación
+
+```
+class Persona(object):
+    "Clase que representa una persona."
+    def __init__(self, identificacion, nombre, apellido):
+        "Constructor de Persona"
+        self.identificacion = identificacion
+        self.nombre = nombre
+        self.apellido = apellido
+    def __str__(self):
+        return " %s: %s, %s" %
+            (str(self.identificacion), self.apellido, self.nombre)
+```
+
+Clase hija
+
+```
+class Alumno(Persona):
+    "Clase que representa a un alumno."
+    def __init__(self, identificacion, nombre, apellido, codigoalumno):
+        "Constructor de Alumno"
+        # llamamos al constructor de Persona
+        Persona.__init__(self, identificacion, nombre, apellido)
+        # agregamos el nuevo atributo
+        self.codigoalumno = codigoalumno
+        
+    def __str__(self):
+        "Devuelve una cadena representativa del alumno"
+        return " %d: %s, %s" %
+            (str(self.codigoalumno), self.apellido, self.nombre)
+```
+
+### Encapsulamiento
 En Python no exiten los modificadores de acceso, el acceso a una variable
 es determinado por su nombre: si en nombre comienza con dosguies bajos se trata de una variable o funcion privada, en casoconrari se trata de una pública.
-### Metodos Especiales
-### Revisando Objetos
-#### Diccionarios
-#### Cadenas
-#### Listas
 
-
-## Programación Funcional
-## Excepciones (si llegamos!!!)
