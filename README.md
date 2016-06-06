@@ -124,7 +124,7 @@ class Coche:
 
 ### Herencia
 
-```
+```python
 class Persona(object):
     "Clase que representa una persona."
     def __init__(self, identificacion, nombre, apellido):
@@ -139,7 +139,7 @@ class Persona(object):
 
 Clase hija
 
-```
+```python
 class Alumno(Persona):
     "Clase que representa a un alumno."
     def __init__(self, identificacion, nombre, apellido, codigoalumno):
